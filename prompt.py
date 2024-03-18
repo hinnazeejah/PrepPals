@@ -44,19 +44,6 @@ def get_most_relevant_embeddings(embeddings, query_embedding):
 
 def query_model(website_data, resume_data):
 
-    # website_embeddings = {}
-    # for k in website_paragraphs:
-    #     website_embeddings[k] = get_embedding(k)
-
-    # resume_embeddings = {}
-    # for k in resume_paragraphs:
-    #     resume_embeddings[k] = get_embedding(k)
-
-    # q_embedding = get_embedding("values principles products services team about")
-
-    # relevant_website_embeddings = get_most_relevant_embeddings(website_embeddings, q_embedding)
-    # relevant_resume_embeddings = get_most_relevant_embeddings(resume_embeddings, q_embedding)
-
     context = f"""\n\nHere is some information about me:
     {resume_data}
 
