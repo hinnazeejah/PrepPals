@@ -32,7 +32,6 @@ async def hello_world(interaction, resume: discord.Attachment, url: str):
     
     await interaction.response.defer()
     pdf_data = await resume.read()
-    # Create a BytesIO object from the PDF data
     pdf_buffer = io.BytesIO(pdf_data)
 
     website_data = scrape_website(url)
