@@ -30,4 +30,9 @@ A Discord bot designed to help students prepare for interviews through real-time
    ```bash
    python main.py
 
+**Usage**
+- Send messages or commands to the bot in Discord channels where it’s active.
+- Attach or reference a resume or relevant text to generate specific interview questions and tips.
+- Get real-time feedback, best-practice advice, and topic breakdowns for targeted prep.
+
 
