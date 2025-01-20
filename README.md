@@ -15,16 +15,19 @@ A Discord bot designed to help students prepare for interviews through real-time
    git clone https://github.com/YourUsername/PrepPals.git
 
 2. **Install Dependencies**
-  cd PrepPals
-  pip install -r requirements.txt
+   ```bash
+   cd PrepPals
+   pip install -r requirements.txt
 
-3. **Set Up Credentials**
+4. **Set Up Credentials**
    Create a .env file or export environment variables for your Discord Bot Token, API keys, etc.
+   ```bash
    Example:
    DISCORD_TOKEN=your_discord_bot_token
    OPENAI_API_KEY=your_openai_api_key
 
-4. **Run the Bot**
+5. **Run the Bot**
+   ```bash
    python main.py
 
 
